@@ -4,6 +4,7 @@ import org.springframework.data.jpa.repository.support.JpaRepositoryImplementati
 
 import model.UserModel;
 
+
 public interface DefaultRespository extends JpaRepositoryImplementation<UserModel, Long> {
 
 }
